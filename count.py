@@ -8,5 +8,6 @@ print()
 
 num = 0
 while num <= end_at:
-    print(num)
     num += count_by
+    print(num)
+  
