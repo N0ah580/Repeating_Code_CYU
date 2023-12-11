@@ -1,14 +1,13 @@
 # Programmer: Noah
 # Description: Age Groups
-age = input("Enter an age: ")
+age = int(input("Enter an age: "))
 child = 0
 adult = 0
 senior = 0
 counter = 0
 
 #Create a loop that repeatedly counts ages and tallies them until 0 is entered
-while age != "0":  
-    age = float(age)
+while age >= 0:  
     
     #tally the answer
     if age <= 12:
@@ -19,7 +18,7 @@ while age != "0":
         senior += 1
         
     #Ask for another age
-    age = input("Enter an age: ")
+    age = int (input("Enter an age: "))
     
 #Print off the recorded answers
 print ()

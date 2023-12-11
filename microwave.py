@@ -10,6 +10,7 @@ counter = time
 while counter >= 0:
     print (counter)
     counter -= 1
+    sleep (1)
 
 #print the staggered beeps
 sleep (1)
